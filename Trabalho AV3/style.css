@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -14,20 +12,44 @@
     --preto: #1E1E1E;
     --branco: #FFFFFF;
 }
+
 body{
     background-color: var(--fundo-principal);
 }
 
-.container{
+.logobar{
     width: 100%;
     height: 100px;
     background-color: var(--preto);
 }
 
-.pesquisa-bar{
+.searchbar{
     width: 100%;
-    height: 70px;
+    height: 50px;
     background-color: var(--roxo);
     display: flex;
-    padding-top: 100px;
+    justify-content: center;
 }
+
+.lateralmenu{
+    height: 100%;
+    width: 200px;
+    background-color: var(--preto);
+    position: absolute;
+    
+}
+
+.search-box{
+    width: 420px;
+    padding: 0 10px 0 10px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    position: relative;
+}
+
+hr{
+    background-color: dimgray;
+    height: 2px;
+}
+
